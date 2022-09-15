@@ -1,0 +1,110 @@
+/* Capa de la section del contenido de la capa container */
+
+.section_ama{
+     width: 1100px;
+     height: 100%;
+     margin-left: 10px;
+     display: inline-block;
+     vertical-align: top;
+     text-align: center;
+ }
+
+ /* Articulos de la parte de la sinopsis  */
+.art_ama{
+    width: 45%;
+    height: 100%;
+    margin-top: 50px;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 10px;
+ }
+/* articulos de la secion de los personajes villanos y aliados */
+ .art_ama2{
+    width: 90%;
+    height: 100%;
+    margin-top: 50px;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 10px;
+ }
+/* Main de las sinopsis: */
+ .main_sect_ama{
+    width: 90%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+/* capa de la parte sombreada de la sinopsis con la foto y el texto */
+.sombreado_ama{
+    background-color: rgba(0, 0, 0, 0.7);
+    /* border: 1px solid rgb(51, 136, 34); */
+    margin-top: 10px;
+    width: 90%;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+}
+/* Capa contenedora de la imagen  texto de los personajes villanos y aliados */
+.sombreado_ama_img{
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-top: 20px;
+    width: 20%;
+    height: 470px;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+/* Parrafos de la sipnopsis con el texto */
+
+.parrafo_ama{
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 10px;
+    margin-bottom:15px;
+    text-align: justify;
+}
+/* Contenedor de la imagen */
+.contain_img_ama{
+    width: 90%;
+    height: 150px;
+    margin: 0% auto;
+}
+/* Imagen en sí */
+.img_ama{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px; /*Para redondear las esquinas de las imágenes*/
+}
+/* Footer último con los enlaces: */
+.footer_ama{
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin:15px 0px 15px 35px;
+    font-family: Montserrat;
+    padding: 20px 20px;
+ }
+/* Estilos de los enlaces del final: */
+ .enlace{
+    border-radius: 5px;
+    border: 2px solid whitesmoke;
+    margin-left: 100px;
+}
+.enlace:hover{
+    background-color: burlywood;
+    color: black;
+}
+/* Botón de subir: */
+ .subir{
+    display: inline-block;
+    vertical-align: top;
+    border: 2px solid whitesmoke;
+    padding: 10px;
+    margin:15px;
+}
+.subir:hover{
+    background-color: burlywood;
+    border-radius: 10px;
+    color: black; 
+}
